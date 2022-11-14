@@ -38,5 +38,11 @@
   2) Visual Studio Code 는 뭐가 문젠가 한참을 검색해봤는데 결국 내가 설치한 건 Windows, macOS 및 Linux에서 실행되는 독립 실행형 소스 코드 편집기 였고
   설치해야하는건 Windows에서 .NET 및 C++ 개발자를 위한 최고의 포괄적인 IDE 라고 써있는것이었다.
    - 다운로드 참고 (https://visualstudio.microsoft.com/ko/downloads/)
+
+  ![image](https://user-images.githubusercontent.com/96710610/201686499-f340e5ab-5eeb-44df-ab3c-37153b4fac88.png)
+  --
+  
+  
+
    
  
