@@ -8,7 +8,6 @@
  https://docs.flutter.dev/get-started/install/windows
  - git을 설치한다
  
- --
  ![image](https://user-images.githubusercontent.com/96710610/201670460-13bb0087-038f-4e38-b61f-525f711ecdb4.png)
  --
  
