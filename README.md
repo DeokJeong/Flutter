@@ -15,25 +15,21 @@
  - 다운받는 중간에 C 드라이브에 flutter 를 설치할 폴더를 하나 만들어준다. ( ex : C:\dev )
  - 폴더만든곳에 다운받은 알집을 푼다 
  
- --
  ![image](https://user-images.githubusercontent.com/96710610/201670665-898d0012-d304-4604-8729-f8464a3e39b9.png)
  --
  
  - 환경변수에 flutter를 추가해준다.
 
- --
  ![image](https://user-images.githubusercontent.com/96710610/201670870-5bd3efa2-7f77-4ebf-94e7-5b946afcd1e9.png)
  --
  
  - C:\dev\flutter 에 보면 flutter_console.bat 가 있다. 클릭해서 눌러준 후 flutter doctor 를 검색한다.
 
- -- 
  ![image](https://user-images.githubusercontent.com/96710610/201671344-532dbc20-9046-45ad-9284-9db1fc0eee11.png)
  --
  
  - 난 위와 같이 에러가 났기 때문에 해결을 해준다.
 
- --
  ![image](https://user-images.githubusercontent.com/96710610/201673736-9b0657a1-1bf4-4b06-a234-3f7df6469167.png)
  --
  
