@@ -50,7 +50,25 @@
   
   ---
   
+  # 2022-11-17 Flutter
   
+  Flutter 프로젝트 생성 방법
+   
+   ![image](https://user-images.githubusercontent.com/96710610/202463847-a8fe2128-bf7f-4d68-b0a8-1fb09d903fbd.png)
+   
+   ---
+   
+   - Visual Studio Code 내 Extensions 에 Flutter를 검색해서 설치해준다.
+   
+   ![image](https://user-images.githubusercontent.com/96710610/202466220-1eed4ecd-3ad4-4ff1-883b-5f19a0031d95.png)
+   
+   ---
+   
+   - ctrl + shift + p 혹은 상단 View > Command Palette.. 로 써있는것을 선택해준다.
+   
+   프로젝트 생성 
+   
 
    
+
  
