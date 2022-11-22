@@ -3,8 +3,9 @@
   ? 회사에서 React Native 를 공부하다 Flutter 얘기가 나와 알아보는 내용
 
   ---
-  <span style="color:red"> 설치관련 </span>
-  <span style="color:red"> 글씨색 변경 </span>
+  1. 설치관련
+ 
+  ***
   
    - 안드로이드 스튜디오를 설치해준다. (최신버전)
    - 공식 홈페이지에 접속한다.
@@ -54,6 +55,8 @@
   # 2022-11-17 Flutter
   
   2. Flutter 프로젝트 생성 방법
+  
+  ***
    
    ![image](https://user-images.githubusercontent.com/96710610/202463847-a8fe2128-bf7f-4d68-b0a8-1fb09d903fbd.png)
    
@@ -100,6 +103,8 @@
 
 
   3. Flutter 프로젝트 실행 방법
+  
+  ***
 
    - 위 방식대로 프로젝트가 만들어졌다면 실행을 해본다. 
    
