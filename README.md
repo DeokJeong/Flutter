@@ -66,9 +66,27 @@
    
    - ctrl + shift + p 혹은 상단 View > Command Palette.. 로 써있는것을 선택해준다.
    
+   flutter New Project 를 누르고
+   
+   Application 를 선택한 후 저장위치를 선택하고 확인을 눌러준다.
+   
    프로젝트 생성 
    
+  # 2022-11-22 Flutter
 
+  프로젝트 생성 중 아래와 같은 코드가 떴다.
+   
+   ```
+   flutter create --template app --overwrite .
+   Cannot create a project within the Flutter SDK. Target directory 'C:\dev\flutter\project\test05' is within the Flutter SDK at 'C:\dev\flutter'.
+   exit code 2
+   ```
+
+ Flutter 프로젝트 실행 방법
+ ctrl + shift + p 혹은 상단 View > Command Palette..을 클릭 후 >Flutter: Select Device 를 찾아 실행하면 디바이스가 실행된다.
+ 
+ 
+ 
    
 
  
