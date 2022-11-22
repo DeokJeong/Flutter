@@ -4,8 +4,7 @@
 
   ---
   <h2>1. 설치관련</h2>
- 
-  ***
+
   
    - 안드로이드 스튜디오를 설치해준다. (최신버전)
    - 공식 홈페이지에 접속한다.
@@ -54,9 +53,9 @@
   
   # 2022-11-17 Flutter
   
-  2. Flutter 프로젝트 생성 방법
   
-  ***
+  <h2>2. Flutter 프로젝트 생성 방법</h2>
+ 
    
    ![image](https://user-images.githubusercontent.com/96710610/202463847-a8fe2128-bf7f-4d68-b0a8-1fb09d903fbd.png)
    
@@ -102,14 +101,20 @@
    - 혹시 나와 같은 상황이 아닌데 같은 문구가 뜬다면 해당 이미지처럼 작업관리자에 가서 dart를 작업종료해준다.
 
 
-  3. Flutter 프로젝트 실행 방법
-  
-  ***
+  <h2>3. Flutter 프로젝트 실행 방법</h2>
+ 
 
    - 위 방식대로 프로젝트가 만들어졌다면 실행을 해본다. 
    
    - ctrl + shift + p 혹은 상단 View > Command Palette..을 클릭 후 >Flutter: Select Device 를 찾아 실행하면 디바이스가 실행된다.
- 
+
+   - 디바이스가 실행됬으면 프로젝트를 띄워주면된다 VS CODE 기준 Ctrl+F5 를 누르고 디버그 콘솔이 뜨면 main.dart를 치고 기다리면 프로젝트가 뜬다.
+
+
+   ![image](https://user-images.githubusercontent.com/96710610/203320687-c0d88c3a-6b6b-40c8-a940-2187dcb4de80.png)
+   
+   ---
+
  
  
    
