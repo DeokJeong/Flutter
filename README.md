@@ -3,7 +3,7 @@
   ? 회사에서 React Native 를 공부하다 Flutter 얘기가 나와 알아보는 내용
 
   ---
-  <span style="color:yellow">1. 설치관련</span>
+  <span style="color:red">설치관련</span>
   
    - 안드로이드 스튜디오를 설치해준다. (최신버전)
    - 공식 홈페이지에 접속한다.
