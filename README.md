@@ -1,44 +1,44 @@
-# 2022-11-14 Flutter
+  # 2022-11-14 Flutter
 
-? 회사에서 React Native 를 공부하다 Flutter 얘기가 나와 알아보는 내용
+  ? 회사에서 React Native 를 공부하다 Flutter 얘기가 나와 알아보는 내용
 
----
+  ---
 
-1. 설치관련
- - 안드로이드 스튜디오를 설치해준다. (최신버전)
- - 공식 홈페이지에 접속한다.
- https://docs.flutter.dev/get-started/install/windows
- - git을 설치한다
- 
- ![image](https://user-images.githubusercontent.com/96710610/201670460-13bb0087-038f-4e38-b61f-525f711ecdb4.png)
- 
- ---
- 
- - Flutter SDK 받기 하단에 알집을 다운받는다.
- - 다운받는 중간에 C 드라이브에 flutter 를 설치할 폴더를 하나 만들어준다. ( ex : C:\dev )
- - 폴더만든곳에 다운받은 알집을 푼다 
- 
- ![image](https://user-images.githubusercontent.com/96710610/201670665-898d0012-d304-4604-8729-f8464a3e39b9.png)
- 
- ---
- 
- - 환경변수에 flutter를 추가해준다.
+  1. 설치관련
+   - 안드로이드 스튜디오를 설치해준다. (최신버전)
+   - 공식 홈페이지에 접속한다.
+   https://docs.flutter.dev/get-started/install/windows
+   - git을 설치한다
 
- ![image](https://user-images.githubusercontent.com/96710610/201670870-5bd3efa2-7f77-4ebf-94e7-5b946afcd1e9.png)
- 
- ---
- 
- - C:\dev\flutter 에 보면 flutter_console.bat 가 있다. 클릭해서 눌러준 후 flutter doctor 를 검색한다.
+   ![image](https://user-images.githubusercontent.com/96710610/201670460-13bb0087-038f-4e38-b61f-525f711ecdb4.png)
 
- ![image](https://user-images.githubusercontent.com/96710610/201671344-532dbc20-9046-45ad-9284-9db1fc0eee11.png)
- 
- ---
- 
- - 난 위와 같이 에러가 났기 때문에 해결을 해준다.
+   ---
 
- ![image](https://user-images.githubusercontent.com/96710610/201673736-9b0657a1-1bf4-4b06-a234-3f7df6469167.png)
- 
- ---
+   - Flutter SDK 받기 하단에 알집을 다운받는다.
+   - 다운받는 중간에 C 드라이브에 flutter 를 설치할 폴더를 하나 만들어준다. ( ex : C:\dev )
+   - 폴더만든곳에 다운받은 알집을 푼다 
+
+   ![image](https://user-images.githubusercontent.com/96710610/201670665-898d0012-d304-4604-8729-f8464a3e39b9.png)
+
+   ---
+
+   - 환경변수에 flutter를 추가해준다.
+
+   ![image](https://user-images.githubusercontent.com/96710610/201670870-5bd3efa2-7f77-4ebf-94e7-5b946afcd1e9.png)
+
+   ---
+
+   - C:\dev\flutter 에 보면 flutter_console.bat 가 있다. 클릭해서 눌러준 후 flutter doctor 를 검색한다.
+
+   ![image](https://user-images.githubusercontent.com/96710610/201671344-532dbc20-9046-45ad-9284-9db1fc0eee11.png)
+
+   ---
+
+   - 난 위와 같이 에러가 났기 때문에 해결을 해준다.
+
+   ![image](https://user-images.githubusercontent.com/96710610/201673736-9b0657a1-1bf4-4b06-a234-3f7df6469167.png)
+
+   ---
  
   1) 원인을 모르겠어서 검색을 한 결과 android studio 에 가서 위 이미지대로 설치했다
    - 자료 참고 (https://stackoverflow.com/questions/69110608/flutter-doctor-results-with-cmdline-tools-component-is-missing)
@@ -52,7 +52,7 @@
   
   # 2022-11-17 Flutter
   
-  Flutter 프로젝트 생성 방법
+  2. Flutter 프로젝트 생성 방법
    
    ![image](https://user-images.githubusercontent.com/96710610/202463847-a8fe2128-bf7f-4d68-b0a8-1fb09d903fbd.png)
    
@@ -66,24 +66,43 @@
    
    - ctrl + shift + p 혹은 상단 View > Command Palette.. 로 써있는것을 선택해준다.
    
-   flutter New Project 를 누르고
-   
-   Application 를 선택한 후 저장위치를 선택하고 확인을 눌러준다.
+   - flutter New Project 를 누르고 Application 를 선택한 후 저장위치를 선택하고 확인을 눌러준다.
    
    프로젝트 생성 
    
   # 2022-11-22 Flutter
 
-  프로젝트 생성 중 아래와 같은 코드가 떴다.
+  - 프로젝트 생성 중 아래와 같은 코드가 떴다.
    
    ```
    flutter create --template app --overwrite .
-   Cannot create a project within the Flutter SDK. Target directory 'C:\dev\flutter\project\test05' is within the Flutter SDK at 'C:\dev\flutter'.
+   Waiting for another flutter command to release the startup lock...
+   Cannot create a project within the Flutter SDK. Target directory 'C:\dev\flutter\project\test04' is within the Flutter SDK at 'C:\dev\flutter'.
    exit code 2
    ```
+   
+   - 여러가지로 검색해본 결과 나의 실수라는것을 깨닳았다.
 
- Flutter 프로젝트 실행 방법
- ctrl + shift + p 혹은 상단 View > Command Palette..을 클릭 후 >Flutter: Select Device 를 찾아 실행하면 디바이스가 실행된다.
+   - 나는 어디에 저장해야할지 몰라 바로 뜨는곳에 저장을 해버렸다.
+   
+   ![image](https://user-images.githubusercontent.com/96710610/203317077-dba1b67b-e97e-4d8a-b853-30830e251968.png)
+   
+   ---
+   
+   - 다시 프로젝트 저장 할 폴더를 만들고 그곳에 가서 프로젝트를 다시 생성하면 위와 같은 이미지가 뜬다.
+   
+   ![image](https://user-images.githubusercontent.com/96710610/203316041-ed0db226-6102-49f9-b31e-6ccd0dcf5d23.png)
+   
+   ---
+
+   - 혹시 나와 같은 상황이 아닌데 같은 문구가 뜬다면 해당 이미지처럼 작업관리자에 가서 dart를 작업종료해준다.
+
+
+  3. Flutter 프로젝트 실행 방법
+
+   - 위 방식대로 프로젝트가 만들어졌다면 실행을 해본다. 
+   
+   - ctrl + shift + p 혹은 상단 View > Command Palette..을 클릭 후 >Flutter: Select Device 를 찾아 실행하면 디바이스가 실행된다.
  
  
  
