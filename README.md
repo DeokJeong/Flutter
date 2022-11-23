@@ -205,11 +205,108 @@
 
   ---
     
-    
+  - var로 쓰는것도 좋지만 명시를 해주는게 더 좋을 수 있다. Type을 알고싶을때 사용하는것은 runtimeType
 
+  ```
+  void main() {
+  // 맞다 / 틀리다
+  // boolean
+
+  bool isTrue = true;
+  bool isFalse = false;
+
+  print(isTrue);
+  print(isFalse);
+
+  //글자
+  // String
+
+  String name = '코드팩토리';
+  String name2 = 'Dart';
+
+  print(name);
+  print(name2);
+
+  //var String
+
+  var name3 = '다트 공부';
+  var number = 20;
+
+  print(name3.runtimeType);
+  print(number.runtimeType);
+
+  }
+
+  ```
     
+  ![image](https://user-images.githubusercontent.com/96710610/203572177-0f6d6f72-1f94-4da8-bb9b-7f7851ffcfac.png)
+
+
+  ---
     
-    
-    
+  - String 사이에 간격주는 방법 
+  - ${} 괄호 안에 묶지않으면 코드로 인식 할 수 없다.
+
+  ```
+  void main() {
+
+  String name = '비비';
+  String name2 = '덕정';
+
+  print(name + name2);
+  print(name + ' ' + name2);
+
+  print('${name} ${name2}');
+
+  print('$name.runtimeType $name2');
+
+  }
+
+  ```
+  
+  ![image](https://user-images.githubusercontent.com/96710610/203573193-cd17f10a-87ce-4bd8-849d-2af0f1352329.png)
+
+  ---
+  
+  - dynamic type은 어떤 타입이던 다 넣을 수 있음
+  
+  ```
+    dynamic name = '다트학습';
+  
+  print(name);
+  
+  dynamic number = 1;
+  
+  var name2 = 'DartPad';
+  
+  print(name2);
+  print(name.runtimeType);
+  print(name2.runtimeType);
+   
+  ```
+  ![image](https://user-images.githubusercontent.com/96710610/203573910-d1d9156e-ddb4-4084-baf1-c252fe203091.png)
+
+  ---
+  
+  - 만일 dynamic 의 변수를 다른 타입의 변수로 변경한다면 변경이 가능하나 var 로 변수를 설정하면 초기 설정타입으로 픽스가 된다.
+
+  ```
+  void main() {
+    dynamic name = '다트학습';
+
+    var name2 = 'DartPad';
+
+    name = 2;
+
+    name2 = 3;
+  } 
+  ```
+  
+  ![image](https://user-images.githubusercontent.com/96710610/203574437-db6d2c51-3b7f-48c8-9ba1-4d4594150522.png)
+
+
+  ---
+  
+  
     
     
