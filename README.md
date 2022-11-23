@@ -115,8 +115,96 @@
    
    ---
 
- 
- 
-   
+  # 2022-11-23 Flutter
+  
+  <h2> 4. Dart에 대한 이해 </h2>
+  
+    - Flutter를 이해하기전에 Dart를 이해하고 가면 더 쉽다는 얘기를 들었다.
+    
+    - 기존의 script와 비슷한 내용이지만 다시한번 이해를 해보고자 한다.
+    
+    ```
+    void main() {
+     print('hello code Fectory!');
 
+     var name = '코드 팩토리';
+     print(name);
+
+     var name2 = 'Dart Test';
+     print(name2);
+
+     name = '플러터 프로그래밍';
+     print(name);
+
+     var name3 = '코드팩토리2';
+     print(name3);
+    }
+    ```
+    
+    - 위와 같이 코드를 적었을경우 코드는 아래 콘솔과 같이 뜬다.
  
+   ![image](https://user-images.githubusercontent.com/96710610/203542060-fec64138-c78d-4fd2-af76-866d3c35ada1.png)
+
+    ---
+    
+    - 정수 integer
+    
+    ```
+    void main() {
+     // 정수
+     // integer
+
+     int number1 = 10;
+     print(number1);
+
+     int number2 = 15;
+     print(number2);
+
+     int number3 = -20;
+     print(number3);
+    }
+    ```
+    ![image](https://user-images.githubusercontent.com/96710610/203542527-56653ec7-189e-4a63-a1be-1c7668c74972.png)
+
+    ---
+    
+    ```
+   void main() {
+     int number1 = 2;
+     int number2 = 4;
+
+     print(number1 + number2);
+     print(number1 - number2);
+     print(number1 / number2);
+     print(number1 * number2);
+    }
+    ```
+    
+    ![image](https://user-images.githubusercontent.com/96710610/203542748-ee7394d3-6f90-48b5-a39a-421e19c42473.png)
+
+    ---
+    
+      - 실수를 입력할때는 int 가 아닌 double을 써야한다고 한다. 만약 정수를 넣게되면 어떻게 될까 궁금해서 넣어봤다.
+      - 하지만 아래와 같이 에러가 뜨고 말았다. 이로서 알게된건 맞지않은것에 대한 에러는 표현이 잘 되어있다는 점인것 같다.
+      
+    ```
+    void main() {
+     //실수
+      //double
+
+      double number1 = 2.5;
+      print(number1);
+      int number2 = 3.2;
+      print(number2);
+    }
+    ```
+    
+    ![image](https://user-images.githubusercontent.com/96710610/203543090-9e0c052d-17a6-4efe-bfff-824e550028a2.png)
+
+    ---
+    
+    
+    
+    
+    
+    
